@@ -4,6 +4,7 @@ HTML {
 
 .l-wrapper {
   background: #fff;
+  overflow: hidden;
 }
 
 .h-box {
@@ -21,6 +22,16 @@ HTML {
 @media screen and (max-width: 768px) {
   .logo {
     width: 180px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .logo {
+    width: 120px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logo {
+    width: 120px;
   }
 }
 
@@ -65,6 +76,18 @@ HTML {
     height: 400px;
   }
 }
+@media screen and (max-width: 425px) {
+  .h-img {
+    width: 100%;
+    height: 270px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .h-img {
+    width: 100%;
+    height: 250px;
+  }
+}
 
 .img-box {
   display: flex;
@@ -83,6 +106,12 @@ HTML {
   .a-img {
     width: 200px;
     height: 400px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .a-img {
+    height: 60px;
+    height: 260px;
   }
 }
 
@@ -128,6 +157,12 @@ HTML {
     height: 400px;
   }
 }
+@media screen and (max-width: 320px) {
+  .m-img {
+    height: 60px;
+    height: 260px;
+  }
+}
 
 .fig-map {
   margin: 0 auto;
@@ -140,6 +175,18 @@ HTML {
   .map {
     width: 440px;
     height: 440px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .map {
+    width: 320px;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .map {
+    width: 250px;
+    height: 250px;
   }
 }
 
@@ -157,6 +204,7 @@ HTML {
 
 .input-box {
   background: #fff;
+  border: 1px solid #333;
   border-radius: 12px;
   display: block;
   margin: 20px;
@@ -168,17 +216,38 @@ HTML {
     width: 400px;
   }
 }
+@media screen and (max-width: 425px) {
+  .input-box {
+    width: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .input-box {
+    width: 200px;
+  }
+}
 
 .txt-box {
   background: #fff;
   border-radius: 12px;
-  border: 2px solid #333;
+  border: 1px solid #333;
   width: 600px;
   height: 300px;
 }
 @media screen and (max-width: 768px) {
   .txt-box {
     width: 400px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .txt-box {
+    width: 320px;
+    height: 320px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .txt-box {
+    width: 200px;
   }
 }
 
@@ -190,6 +259,11 @@ HTML {
   font-size: 15px;
   padding: 10px 20px 10px 20px;
   margin-top: 20px;
+}
+@media screen and (max-width: 320px) {
+  .contact-btn {
+    font-size: 10px;
+  }
 }
 .contact-btn:hover {
   background: #3cb0fd;
@@ -206,7 +280,7 @@ HTML {
   position: fixed;
   z-index: 101;
 }
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
   .sp-btn {
     display: none;
   }
