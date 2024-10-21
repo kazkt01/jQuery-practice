@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pale Coffee</title>
+    <!-- 説明 -->
+    <meta name="description" content="架空のカフェのサイトです" />
+    <!--  -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="./styles/common.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/sanitize (18).css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+  </head>
+  <body>
+    <div class="l-wrapper">
+      <!-- /////////////////////
+    /////////// Header//////////////////z
+    ///////////////////////////////////// -->
+      <header class="h-box">
+        <div class="logo-box">
+          <img class="logo" src="./assets/logo-pale.svg" alt="" />
+        </div>
+        <nav class="nav-box">
+          <ul class="ul-box">
+            <li class="li-items">
+              <a href="#about" class="link">About</a>
+            </li>
+            <li class="li-items">
+              <a href="#menu" class="link">Menu</a>
+            </li>
+            <li class="li-items">
+              <a href="#access" class="link">Access</a>
+            </li>
+            <li class="li-items">
+              <a href="#contact" class="link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!-- /////////// SP Menu /////////
+    /////////////////////////////////////// -->
+
+      <!-- /////////Hero///////////////
+    /////////////////////////////// -->
+      <Hero class="hero-box">
+        <h2 class="sec-title"></h2>
+        <figure class="fig-box">
+          <img class="h-img" src="./assets/h-img.jpg" alt="cafe-room" />
+        </figure>
+      </Hero>
+
+      <!--  About
+    ////////////////////////////////// -->
+      <section class="sec-box">
+        <h2 id="about" class="sec-title">About</h2>
+
+        <figure>
+          <img
+            class="a-img"
+            src="./assets/pexels-tim-douglas-6205508.jpg"
+            alt=""
+          />
+          <figcaption>
+            <p class="a-title">Shop Owner</p>
+            <h2 class="a-name">Sophia Brown</h2>
+            <p>”コーヒーを愛するすべての人に最高のひとときを”</p>
+          </figcaption>
+        </figure>
+
+        <div class="icons-box">
+          <a target="_blank" href="https://www.instagram.com/">
+            <img
+              class="icon"
+              width="50px"
+              src="./assets/insta-svgrepo-com.svg"
+              alt=""
+            />
+          </a>
+        </div>
+      </section>
+
+      <!-- /////Menu///////
+    ///////////////////////////// -->
+      <section class="sec-box">
+        <h2 id="menu" class="sec-title">Menu</h2>
+        <div class="m-img-box">
+          <figure>
+            <img class="m-img" src="./assets/kanure01.jpg" alt="kanure" />
+            <figcaption class="fig-cap">
+              <p>Canelé</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <img class="m-img" src="./assets/cake01.jpg" alt="cake" />
+            <figcaption class="fig-cap">
+              <p>Cake</p>
+            </figcaption>
+          </figure>
+
+          <figure>
+            <img class="m-img" src="./assets/donuts.jpg" alt="cake" />
+            <figcaption class="fig-cap">
+              <p>Donuts</p>
+            </figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="sec-box">
+        <h2 class="sec-title"></h2>
+      </section>
+
+      <!-- ////////Acsess//////////////
+    ////////////////////////////////////////-->
+      <section class="sec-box">
+        <h2 id="access" class="sec-title">Access</h2>
+        <figure class="fig-map">
+          <iframe
+            class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3241.3024324104967!2d139.68606731191264!3d35.66955453050022!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6018f34b7611acc5%3A0xd6c01d5a85289abc!2z5Luj44CF5pyo5YWr5bmh6aeF!5e0!3m2!1sja!2sjp!4v1729332550693!5m2!1sja!2sjp"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+          <figcaption></figcaption>
+        </figure>
+      </section>
+      <!-- ///// Contact //////////
+    ////////////////////////////// -->
+      <section class="sec-box">
+        <h2 id="contact" class="sec-title">Contact</h2>
+        <div class="contact-box">
+          <form class="form-box" action="">
+            <input class="input-box" type="text" placeholder="Name" />
+            <input class="input-box" type="email " placeholder="Email" />
+            <textarea
+              class="txt-box"
+              name=""
+              id=""
+              placeholder="Message"
+            ></textarea>
+          </form>
+        </div>
+        <button class="contact-btn">Send</button>
+      </section>
+      <!--  Footer
+    ////////////////////// -->
+      <footer class="footer-box">
+        <p>
+          <small>
+            ©2024 Pale Coffee <br />
+            All Rights Reserved
+          </small>
+        </p>
+      </footer>
+
+      <!--//////////// SP Menu btn///////////////
+       //////////////////////////////////////////-->
+      <!-- headerから分離で解決 -->
+      <div class="sp-btn" id="sp-btn">
+        <div class="sp-box">
+          <span class="sp-border sp-border--01"></span>
+          <span class="sp-border sp-border--02"></span>
+          <span class="sp-border sp-border--03"></span>
+        </div>
+      </div>
+
+      <div class="sp-menu" id="sp_menu">
+        <div class="sp-menu-box">
+          <ul class="sp-ul">
+            <li class="li-item">
+              <a class="sp-link" href="#about">About</a>
+            </li>
+            <li class="li-item">
+              <a class="sp-link" href="#menu">Menu</a>
+            </li>
+            <li class="li-item">
+              <a class="sp-link" href="#access">Access</a>
+            </li>
+            <li class="li-item">
+              <a class="sp-link" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- l-wrapper END -->
+    </div>
+
+    <script src="./app/jquery.js"></script>
+    <script>
+      // test
+      const hogeA = $("#sp-btn");
+      const hogeB = $("#sp_menu");
+
+      const hogeC = $(".sp-link");
+
+      hogeA.on("click", function () {
+        hogeA.toggleClass("active");
+        hogeB.toggleClass("active2");
+      });
+
+      hogeC.on("click", function () {
+        hogeA.toggleClass("active");
+        hogeB.removeClass("active2");
+      });
+
+      //   const hogeC = $(".sp-link");
+
+      //   hogeC.toggleClass("click", function () {
+      //     hogeB.removeClass("active2");
+      //   });
+
+      //   $("#sp-btn").on("click", function () {
+      //     $(this).toggleClass("spin");
+      //   });
+    </script>
+  </body>
+</html>

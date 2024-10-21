@@ -1,0 +1,292 @@
+HTML {
+  font-family: "Jost", sans-serif;
+}
+
+.h-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 20px;
+  position: fixed;
+  width: 100%;
+}
+
+.logo {
+  width: 200px;
+}
+@media screen and (max-width: 768px) {
+  .logo {
+    width: 180px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .nav-box {
+    display: none;
+  }
+}
+
+.ul-box {
+  display: flex;
+}
+
+.li-box {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+  color: #333;
+  padding: 1em;
+  padding-bottom: 0px;
+  font-size: 20px;
+  font-weight: bold;
+}
+.link:hover {
+  border-bottom: 2px solid #333;
+  color: #513a3a;
+}
+
+.h-img {
+  width: 100%;
+  height: 900px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+@media screen and (max-width: 768px) {
+  .h-img {
+    width: 100%;
+    height: 400px;
+  }
+}
+
+.img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.a-img {
+  width: 300px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+  .a-img {
+    width: 200px;
+    height: 400px;
+  }
+}
+
+.a-title {
+  margin-bottom: 0px;
+}
+
+.a-name {
+  margin-top: 5px;
+}
+
+.icons-box {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.icon {
+  margin: 0;
+}
+
+.m-img-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-width: 768px) {
+  .m-img-box {
+    display: block;
+  }
+}
+
+.m-img {
+  width: 300px;
+  height: 500px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+  .m-img {
+    width: 200px;
+    height: 400px;
+  }
+}
+
+.fig-map {
+  margin: 0 auto;
+}
+
+.map {
+  border-radius: 20px;
+}
+@media screen and (max-width: 768px) {
+  .map {
+    width: 440px;
+    height: 440px;
+  }
+}
+
+.contact-box {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+
+.form-box {
+  background: #fff;
+  border-radius: 12px;
+}
+
+.input-box {
+  background: #fff;
+  border-radius: 12px;
+  display: block;
+  margin: 20px;
+  width: 600px;
+  height: 40px;
+}
+@media screen and (max-width: 768px) {
+  .input-box {
+    width: 400px;
+  }
+}
+
+.txt-box {
+  background: #fff;
+  border-radius: 12px;
+  border: 2px solid #333;
+  width: 600px;
+  height: 300px;
+}
+@media screen and (max-width: 768px) {
+  .txt-box {
+    width: 400px;
+  }
+}
+
+.contact-btn {
+  background: #3498db;
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  border-radius: 28px;
+  color: #ffffff;
+  font-size: 15px;
+  padding: 10px 20px 10px 20px;
+  margin-top: 20px;
+}
+.contact-btn:hover {
+  background: #3cb0fd;
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+.footer-box {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.sp-btn {
+  position: fixed;
+  z-index: 101;
+}
+@media screen and (min-width: 768px) {
+  .sp-btn {
+    display: none;
+  }
+}
+
+.sp-box {
+  position: fixed;
+  width: 28px;
+  height: 16px;
+  right: 30px;
+  top: 60px;
+  z-index: 100;
+}
+
+.sp-border {
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 2px;
+  background: #333;
+}
+.sp-border--01 {
+  top: 0;
+}
+.sp-border--02 {
+  top: 8px;
+}
+.sp-border--03 {
+  top: 16px;
+}
+
+.active .sp-border--01 {
+  transform: translateY(10px) rotate(45deg);
+}
+.active .sp-border--02 {
+  opacity: 0;
+}
+.active .sp-border--03 {
+  transform: translateY(-6px) rotate(-45deg);
+}
+
+.sp-menu {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #ffa500;
+  opacity: 0.98;
+}
+@media screen and (min-width: 768px) {
+  .sp-menu {
+    display: none;
+  }
+}
+.sp-menu.active2 {
+  display: block;
+}
+
+.sp-menu-box {
+  margin-top: 300px;
+}
+
+.sp-ul {
+  margin: 0 auto;
+  width: 100%;
+  text-align: center;
+}
+
+.li-item {
+  list-style: none;
+  padding: 10px;
+}
+
+.sp-link {
+  color: #333;
+  text-decoration: none;
+  font-size: 20px;
+}
+.sp-link:hover {
+  border-bottom: 1px solid #333;
+}
+
+.active2 .sp-menu {
+  display: block;
+}/*# sourceMappingURL=index.css.map */
