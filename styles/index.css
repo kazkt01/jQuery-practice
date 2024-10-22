@@ -40,6 +40,8 @@ HTML {
   font-weight: bold;
   font-style: italic;
   margin: 0;
+  color: #333;
+  text-decoration: none;
 }
 @media screen and (max-width: 425px) {
   .logo-txt {
@@ -334,18 +336,8 @@ HTML {
   width: 28px;
   height: 16px;
   right: 30px;
-  top: 9%;
+  top: 65px;
   z-index: 100;
-}
-@media screen and (max-width: 425px) {
-  .sp-box {
-    top: 10%;
-  }
-}
-@media screen and (max-width: 320px) {
-  .sp-box {
-    top: 10%;
-  }
 }
 
 .sp-border {
