@@ -26,12 +26,12 @@
 }
 @media screen and (max-width: 425px) {
   .logo-txt {
-    font-size: 30px;
+    font-size: 26px;
   }
 }
 @media screen and (max-width: 320px) {
   .logo-txt {
-    font-size: 25px;
+    font-size: 20px;
     padding: 2px 0;
   }
 }
@@ -92,7 +92,7 @@
 @media screen and (max-width: 320px) {
   .h-img {
     width: 100%;
-    height: 250px;
+    height: 360px;
   }
 }
 
@@ -123,8 +123,10 @@
 }
 @media screen and (max-width: 320px) {
   .a-img {
-    height: 60px;
-    height: 260px;
+    width: 230px;
+    height: 330px;
+    -o-object-position: top;
+       object-position: top;
   }
 }
 
@@ -178,8 +180,10 @@
 }
 @media screen and (max-width: 320px) {
   .m-img {
-    height: 60px;
-    height: 260px;
+    width: 230px;
+    height: 330px;
+    -o-object-position: right;
+       object-position: right;
   }
 }
 
