@@ -1,38 +1,35 @@
 @charset "utf-8";
 
-HTML {
-  font-family: "Jost", sans-serif;
-}
-
-.l-wrapper {
-  background: #fff;
-  overflow: hidden;
-}
-
 .h-box {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 5px 20px;
+  padding: 0 20px;
   position: fixed;
   width: 100%;
 }
 
-.logo {
-  width: 200px;
-  @media screen and (max-width: 768px) {
-    width: 180px;
-  }
-  //スマホL
-  @media screen and (max-width: 425px) {
-    width: 120px;
-  }
-
-  // スマホ
-  @media screen and (max-width: 320px) {
-    width: 120px;
-  }
+.h-item {
+  width: 100%;
+  align-items: center;
+  padding: 5px 20px;
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
 }
+
+// .logo {
+//   width: 200px;
+//   @media screen and (max-width: 768px) {
+//     width: 180px;
+//   }
+//   //スマホL
+//   @media screen and (max-width: 425px) {
+//     width: 120px;
+//   }
+
+//   // スマホ
+//   @media screen and (max-width: 320px) {
+//     width: 120px;
+//   }
+// }
 
 .logo-txt {
   font-size: 35px;
