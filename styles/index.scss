@@ -3,6 +3,7 @@
 .h-box {
   padding: 0 20px;
   position: fixed;
+  z-index: 90;
   width: 100%;
 }
 
@@ -46,6 +47,7 @@
   // スマホ
   @media screen and (max-width: 320px) {
     font-size: 25px;
+    padding: 2px 0;
   }
 }
 
@@ -340,7 +342,7 @@
   position: fixed;
   width: 28px;
   height: 16px;
-  right: 30px;
+  right: 45px;
   top: 65px;
   z-index: 100;
 }
