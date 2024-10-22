@@ -35,6 +35,23 @@ HTML {
   }
 }
 
+.logo-txt {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+}
+@media screen and (max-width: 425px) {
+  .logo-txt {
+    font-size: 30px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .logo-txt {
+    font-size: 25px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .nav-box {
     display: none;
@@ -317,8 +334,18 @@ HTML {
   width: 28px;
   height: 16px;
   right: 30px;
-  top: 60px;
+  top: 9%;
   z-index: 100;
+}
+@media screen and (max-width: 425px) {
+  .sp-box {
+    top: 10%;
+  }
+}
+@media screen and (max-width: 320px) {
+  .sp-box {
+    top: 10%;
+  }
 }
 
 .sp-border {

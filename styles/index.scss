@@ -34,6 +34,22 @@ HTML {
   }
 }
 
+.logo-txt {
+  font-size: 35px;
+  font-weight: bold;
+  font-style: italic;
+  margin: 0;
+  //スマホL
+  @media screen and (max-width: 425px) {
+    font-size: 30px;
+  }
+
+  // スマホ
+  @media screen and (max-width: 320px) {
+    font-size: 25px;
+  }
+}
+
 .nav-box {
   @media screen and (max-width: 768px) {
     display: none;
@@ -326,8 +342,19 @@ HTML {
   width: 28px;
   height: 16px;
   right: 30px;
-  top: 60px;
+  top: 9%;
   z-index: 100;
+
+  //スマホL
+
+  @media screen and (max-width: 425px) {
+    top: 10%;
+  }
+
+  // スマホ
+  @media screen and (max-width: 320px) {
+    top: 10%;
+  }
 }
 
 .sp-border {
